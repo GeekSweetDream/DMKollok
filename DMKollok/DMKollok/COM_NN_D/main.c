@@ -49,16 +49,16 @@ int compNumbers(NUMBN fNumb, NUMBN sNumb)
                 if(fNumb.n == sNumb.n)
                     {
                         int len = fNumb.n,
-                            fl = 0;
-                        for(int i = 0; (i < len) && !fl; ++i )
+                            fl = 1;
+                        for(int i = 0; (i < len) && fl; ++i )
                             {
                                 fl = i < len && *(fNumb.A+i) == *(sNumb.A+i);
-                                if((!fl) && (i != len))
+                                if((!fl) && (i < len))
                                     answer = *(fNumb.A+i) > *(sNumb.A+i)? 2: 1;
                             }
                     }
                 else
-                    answer = *(fNumb.A) > *(sNumb.A)? 2: 1;
+                    answer = fNumb.n > sNumb.n? 2: 1;
             }
         else
             answer = -1;
