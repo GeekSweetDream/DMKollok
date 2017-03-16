@@ -13,7 +13,6 @@
  
 */
 
-
 #include <stdio.h>
 #include "numbN.h"
 #include "COM_NN_D.h"
