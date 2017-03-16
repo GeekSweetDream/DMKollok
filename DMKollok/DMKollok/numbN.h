@@ -3,8 +3,8 @@
 
 typedef struct numbN
 	{
-		int n;
-		int* A;
+		int n;		// Кол-во чисел в числе
+		int* A;		// Динамический массив для числа
     } NUMBN;
 
 #endif
