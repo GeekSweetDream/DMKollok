@@ -1,54 +1,23 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "COM_NN_D/COM_NN_D.h"
 #include "numbN.h"
-
-void turnNumber(int* number, int length);                                                                                               // Функция для переворота числа
-void swapNumb(NUMBN* numberOne, NUMBN* numberTwo);                                                                                      // Функция для обмена указателей
-void helpAddNumber(int* numberOne, int* numberTwo, int** answer, int base, int* balance, int addSecNumb, int begin, int end );           // Вспомогательная функция для сложения
-NUMBN addNumbers(NUMBN numbOne, NUMBN numbTwo);                                                                                     // Функция для сложения двух чисел
-
-
-int main()
-    {
-        NUMBN number;                      // Число, которое введет пользователь
-        NUMBN numbert;
-        NUMBN answer;                      // Ответ
-        number.n = 1;
-        numbert.n = 1;
-        number.A = (int*) malloc(number.n*sizeof(int));
-        numbert.A = (int*) malloc((numbert.n)*sizeof(int));
-        for (int i = 0;  i < 1; ++i) {
-            scanf("%d",number.A+i);
-            scanf("%d",numbert.A+i);
-        }
-        
-        
-//        for(int i = 0; i < 5; ++i)
-//            printf("%d",*(number.A+i));
-//        printf("\n");
-//        
-//        for(int i = 0; i < 6; ++i)
-//            printf("%d",*(numbert.A+i));
-//        printf("\n");
-        
-        
-        answer = addNumbers(number, numbert);
-        
-        for(int i = 0; i < answer.n; ++i)
-            printf("%d",*(answer.A+i));
-        printf("\n");
-        return 0;
-    }
-
-
+#include "ADD_NN_N.h"
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 /*
+
+ swapNumb
  
- Функция для обмена указателей
+ Функция меняет местами числа
  
- */
+ Параметры:
+ 1) numberOne - Первое число
+ 2) numberTwo - Второе число
+ 
+ Функция ничего не возвращает
+ 
+*/
+
 
 void swapNumb(NUMBN* numberOne, NUMBN* numberTwo)
     {
@@ -60,10 +29,19 @@ void swapNumb(NUMBN* numberOne, NUMBN* numberTwo)
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 /*
+
+ turnNumber
  
- Функция для переворота числа
+ Функция переворачивает число
  
- */
+ Параметры:
+ 1) number - Первое число
+ 2) length - Второе число
+ 
+ Функция ничего не возвращает
+ 
+*/
+
 
 void turnNumber(int* number, int length)
     {
@@ -78,10 +56,18 @@ void turnNumber(int* number, int length)
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 /*
+
+ addNumbers
  
- Функция для сложения числа
+ Функция сравнивает два натуральных числа
  
- */
+ Параметры:
+ 1) numbOne - Первое число
+ 2) numbTwo - Второе число
+ 
+ Функция возвращает результат типа - NUMBN
+ 
+*/
 
 NUMBN addNumbers(NUMBN numbOne, NUMBN numbTwo)
     {
@@ -125,10 +111,24 @@ NUMBN addNumbers(NUMBN numbOne, NUMBN numbTwo)
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 /*
+
+ helpAddNumber
  
- Вспомогательная функция для сложения
+ Вспомогательная функция для сложения 
  
- */
+ Параметры:
+ 1) numberOne - Первое число
+ 2) numberTwo - Второе число
+ 3) answer - Ответ
+ 4) base - Система счисления
+ 5) balance - Остаток
+ 6) addSecNumb - Добавить ли второе число
+ 7) begin - Начало
+ 8) end - Конец
+ 
+ Функция ничего не возвращает
+ 
+*/
 
 void helpAddNumber(int* numberOne, int* numberTwo, int** answer, int base, int* balance, int addSecNumb, int begin, int end )
     {
@@ -146,5 +146,4 @@ void helpAddNumber(int* numberOne, int* numberTwo, int** answer, int base, int* 
                 ++numbAlen;
             }
     }
-
 
