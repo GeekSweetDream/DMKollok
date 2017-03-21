@@ -4,33 +4,25 @@
 #include "numbN.h"
 #include "bfunc/bfunc.h"
 #include "COM_NN_D/COM_NN_D.h"
+#include "SUB_NN_N.h"
 
+/*
+ 
+ Написал: Пискунов Виталий
+ Группа: 6308
+ 
+ differenceNUmb
+ 
+ Функция вычитание из одного натурального другое
+ 
+ Параметры:
+ 1) numbF - Первое число
+ 2) numbS - Второе число
+ 
+ Функция возращает тип - NUMBN
+ 
+ */
 
-NUMBN differenceNumb(NUMBN numbF, NUMBN numbS);
-
-int main(void) {
-    
-    NUMBN a, b;
-    NUMBN c;
-    a.n = 2;
-    b.n = 2;
-    a.A = (int*) malloc(a.n*sizeof(int));
-    b.A = (int*) malloc(b.n*sizeof(int));
-    
-    for(int i = 0; i <a.n; ++i)
-        scanf("%d",a.A+i);
-    
-    for(int i = 0; i <b.n; ++i)
-        scanf("%d",b.A+i);
-    
-    c = differenceNumb(a, b);
-    
-    for(int i = 0; i <c.n; ++i)
-        printf("%d",*(c.A+i));
-    
-    return 0;
-
-}
 
 
 NUMBN differenceNumb(NUMBN numbF, NUMBN numbS)
@@ -55,7 +47,6 @@ NUMBN differenceNumb(NUMBN numbF, NUMBN numbS)
                         
                         for(int i = 0; i < sNumb.n; ++i)
                             {
-                                printf("\n%d %d",*(fNumb.A+i),*(sNumb.A+i));
                                 *(answer.A+i) = *(fNumb.A+i) - *(sNumb.A+i);
                                 if(*(answer.A+i) < 0)
                                     {
