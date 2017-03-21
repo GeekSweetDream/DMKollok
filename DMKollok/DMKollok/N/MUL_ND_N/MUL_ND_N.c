@@ -47,6 +47,7 @@ NUMBN multiplicateN(NUMBN numb, int k)
                                         *(answer.A + answer.n-1) = ost;
                                     }
                                 turnNumber(answer.A, answer.n);
+                                turnNumber(numb.A, numb.n);
                             }
                     }
                 else
