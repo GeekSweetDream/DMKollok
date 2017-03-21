@@ -28,10 +28,7 @@ NUMBN getNatural(NUMBZ numb)
 				outNumb.A[i] = numb.A[i];
 	          }
 	       else
-	          {
-			printf("Введено отрицательное число, действие не может быть выполнено");
-			outNumb = NULL;
-	          }
+	          printf("Введено отрицательное число, действие не может быть выполнено");
 	else
 	    printf("\nОшибка, число не существует!\n");
 	return outNumb;
