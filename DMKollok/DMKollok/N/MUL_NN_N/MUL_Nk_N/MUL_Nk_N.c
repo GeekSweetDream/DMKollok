@@ -12,8 +12,9 @@
  Функция возвращает результат типа - NUMBN*
  
  */
-#include <stdlib.h>
+
 #include <stdio.h>
+#include <stdlib.h>
 #include "numbN.h"
 #include "MUL_Nk_N.h"
 
