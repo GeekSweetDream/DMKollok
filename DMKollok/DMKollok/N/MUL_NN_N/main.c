@@ -25,10 +25,9 @@ NUMBN multiplicationN(NUMBN numbF, NUMBN numbS)
                 for (int i = 0; i < numbF.n; ++i)
                     {
                         a = multiplicateN(numbS, *(numbF.A+i));
-                        
+                        elevenExp(a, i)
                         answer = addNumbers(a, answer);
                     }
-                
                 
             }
         else
