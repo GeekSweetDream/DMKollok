@@ -17,21 +17,17 @@
 #include "numbN.h"
 #include "MUL_Nk_N.h"
 
-NUMBN* elevenExp(NUMBN* str, int k)
+void elevenExp(NUMBN* str, int k)
 {
     if (str->A != NULL)
     {
         for (int i = str->n; i < str->n + k; i++)
         {
-            str->A = realloc(str->A, i * sizeof(int*));
+            str->A = realloc(str->A, str->n+i * sizeof(int*));
             *(str->A + i) = 0;
         }
         str->n += k;
     }
     else
-    {
         puts("Ошибка, было передано пустое значение числа");
-        str = NULL;
-    }
-    return str;
 }
