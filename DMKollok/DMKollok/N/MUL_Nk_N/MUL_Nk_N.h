@@ -19,6 +19,6 @@
  
 */
 
-NUMBN* elevenExp(NUMBN* str, int k)
+NUMBN* elevenExp(NUMBN* str, int k);
 
 #endif

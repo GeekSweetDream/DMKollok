@@ -21,10 +21,11 @@ NUMBN multiplicationN(NUMBN numbF, NUMBN numbS)
             {
                 turnNumber(numbF.A, numbF.n);
                 turnNumber(numbS.A, numbS.n);
-                answer.A = (int*) calloc( answer.n, sizeof(int));
+                answer.A = (int*) calloc (answer.n, sizeof(int));
                 for (int i = 0; i < numbF.n; ++i)
                     {
                         a = multiplicateN(numbS, *(numbF.A+i));
+                        
                         answer = addNumbers(a, answer);
                     }
                 
