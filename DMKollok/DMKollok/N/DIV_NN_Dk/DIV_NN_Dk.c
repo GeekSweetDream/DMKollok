@@ -6,36 +6,22 @@
 #include "COM_NN_D/COM_NN_D.h"
 #include "bfunc/bfunc.h"
 
-NUMBN getFirstNumbDivident(NUMBN fNumb,NUMBN sNumb);
-
-int main(void) {
-
-    NUMBN a,b,c;
-    
-    a.n = 3;
-    b.n = 3;
-    
-    a.A = (int*) malloc(a.n * sizeof(int));
-    b.A = (int*) malloc(b.n * sizeof(int));
-    
-    for (int i = 0 ; i<a.n; ++i) {
-        scanf("%d",a.A+i);
-    }
-    
-    for (int i = 0 ; i<b.n; ++i) {
-        scanf("%d",b.A+i);
-    }
-
-    c = getFirstNumbDivident(a, b);
-    
-    for (int i = 0 ; i<c.n; ++i) {
-        printf("%d",*(c.A+i));
-    }
-
-    
-    return 0;
-}
-
+/*
+ 
+ Написал: Пискунов Виталий
+ Группа: 6308
+ 
+ getFirstNumbDivident
+ 
+ Функция выдает первую цифру большего числа умн на 10^k
+ 
+ Параметры:
+ 1) fNumb - Первое число
+ 2) sNumb - Второе число
+ 
+ Функция возращает тип - NUMBN
+ 
+ */
 
 NUMBN getFirstNumbDivident(NUMBN fNumb,NUMBN sNumb)
     {
