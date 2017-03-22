@@ -5,7 +5,7 @@ getNatural
 Функция преобразует целое неотрицательное число в натуральное.
 
 Параметры:
-numb - целое число
+ 1)numb - целое число
 
 Функция возвращает натуральное число
 
@@ -20,7 +20,7 @@ NUMBN getNatural(NUMBZ numb)
     {
 	NUMBN outNumb;
 	if (numb.A)
-	      if (numb.b == 1)
+	      if (numb.b == 0)
 	          {
 			outNumb.n = numb.n;
 			outNumb.A = (int*)malloc(outNumb.n * sizeof(int));
