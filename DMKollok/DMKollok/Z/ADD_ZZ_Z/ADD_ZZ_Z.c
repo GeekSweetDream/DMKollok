@@ -9,38 +9,20 @@
 #include "POZ_Z_D/POZ_Z_D.h"
 #include "numbZ.h"
 #include "numbN.h"
+#include "ADD_ZZ_Z.h"
+/*
 
-NUMBZ addNumbZ(NUMBZ a, NUMBZ b);
+addNumbZ
 
+Функция для сложения двух целых чисел
 
-int main(void) {
-    
-    NUMBZ a;
-    a.n = 3;
-    a.A =(int*) calloc(a.n, sizeof(int));
-    NUMBZ b;
-    a.b = 0;
-    b.b = 1;
-    b.n = 3;
-    b.A =(int*) calloc(a.n, sizeof(int));
-    NUMBZ c;
+Параметры:
+1) a - первое число
+2) b - второе число
 
-    for (int i = 0; i < a.n; ++i)
-        scanf("%d",a.A+i);
-    for (int i = 0; i < b.n; ++i)
-        scanf("%d",b.A+i);
-    
-    c = addNumbZ(a, b);
-    printf("%d\n",c.b);
-    for (int i = 0; i < c.n; ++i)
-        printf("%d",*(c.A+i));
-    
-    
-    
-    
-    return 0;
-}
+Функция возвращает результат типа - NUMBZ
 
+*/
 
 NUMBZ addNumbZ(NUMBZ a, NUMBZ b)
     {
@@ -74,7 +56,7 @@ NUMBZ addNumbZ(NUMBZ a, NUMBZ b)
                             answer.A = (int*) malloc(c.n*sizeof(int));
                             for (int i = 0; i < c.n; ++i)
                                 *(answer.A + i) = *(c.A+i);
-                            
+                        
                             if(fl)
                                 multiMinusOne(&answer);
                         }
@@ -90,3 +72,4 @@ NUMBZ addNumbZ(NUMBZ a, NUMBZ b)
         
         return answer;
     }
+
