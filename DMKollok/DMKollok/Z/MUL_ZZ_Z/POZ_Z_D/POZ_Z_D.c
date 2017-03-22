@@ -1,10 +1,4 @@
-﻿#ifndef _POZ_Z_D_
-#define _POZ_Z_D_
-#include "numbZ.h"
-/*
-
- Автор: Мишанов Александр
- Группа: 6308
+﻿/*
 
  getSign
 
@@ -18,7 +12,27 @@
 
 */
 
-int getSign(NUMBZ);
+#include <stdio.h>
+#include "numbZ.h"
+#include "POZ_Z_D.h"
 
-#endif 
-
+int getSign(NUMBZ numb)
+{
+	int check = numb.b;
+	
+	if (numb.A)
+	{
+		for (int i = 0;i < numb.n && check;++i)
+			check = *(numb.A + i) == 0;
+		if (check)
+			check = 0;
+		else
+			if (numb.b == 1)
+				check = 1;
+			else
+				check = 2;
+	}
+	else
+		check = -1;
+	return check;
+}
