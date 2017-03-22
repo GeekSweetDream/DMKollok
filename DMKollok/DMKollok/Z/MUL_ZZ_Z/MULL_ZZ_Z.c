@@ -7,34 +7,7 @@
 #include "MUL_NN_N/MUL_NN_N.h"
 #include "numbZ.h"
 #include "numbN.h"
-
-NUMBZ multiplicationNumbZ(NUMBZ a, NUMBZ b);
-
-int main(int argc, const char * argv[]) {
-    NUMBZ a;
-    a.n = 3;
-    a.A =(int*) calloc(a.n, sizeof(int));
-    NUMBZ b;
-    a.b = 0;
-    b.b = 0;
-    b.n = 3;
-    b.A =(int*) calloc(a.n, sizeof(int));
-    NUMBZ c;
-    
-    for (int i = 0; i < a.n; ++i)
-        scanf("%d",a.A+i);
-    for (int i = 0; i < b.n; ++i)
-        scanf("%d",b.A+i);
-    
-    c = multiplicationNumbZ(a, b);
-    printf("%d\n",c.b);
-    for (int i = 0; i < c.n; ++i)
-        printf("%d",*(c.A+i));
-    
-
-    return 0;
-}
-
+#include "MUL_ZZ_Z.h"
 
 NUMBZ multiplicationNumbZ(NUMBZ a, NUMBZ b)
     {
