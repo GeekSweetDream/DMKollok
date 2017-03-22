@@ -57,7 +57,26 @@ NUMBN differenceNumb(NUMBN numbF, NUMBN numbS)
                         if(sNumb.n!=fNumb.n)
                             {
                                 for (int i = sNumb.n; i < fNumb.n; ++i)
-                                    *(answer.A+i) += *(fNumb.A+i);
+                                    {
+                                        if(*(fNumb.A+i) < 0)
+                                        {
+                                            *(fNumb.A+i) += 10;
+                                            *(fNumb.A+i+1) -= 1;
+                                        }
+                                        *(answer.A+i) += *(fNumb.A+i);
+                                    }
+                            }
+                        int fl = 0,
+                            i;
+                        
+                        for (i = fNumb.n-1; i >= 0 && !fl; --i)
+                            fl = *(answer.A + i) != 0;
+                        
+                        i+=2;
+                        if(i != fNumb.n)
+                            {
+                                answer.n = i;
+                                answer.A = (int*) realloc(answer.A, i*sizeof(int));
                             }
                         turnNumber(answer.A, answer.n);
                     }
