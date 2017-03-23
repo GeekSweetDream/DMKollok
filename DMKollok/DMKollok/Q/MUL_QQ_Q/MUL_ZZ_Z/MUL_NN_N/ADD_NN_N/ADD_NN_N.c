@@ -76,11 +76,11 @@ NUMBN addNumbers(NUMBN one, NUMBN two)
             base = 10,
             balance = 0;
         NUMBN answer;
-        if(numbOne.A && numbTwo.A)
+        if(one.A && two.A)
             {
                 turnNumber(one.A,one.n);
                 turnNumber(two.A,two.n);
-                int comp = compNumbers(numbOne, numbTwo);
+                int comp = compNumbers(one, two);
                 error = comp == -1;
                 if(!error)
                     {

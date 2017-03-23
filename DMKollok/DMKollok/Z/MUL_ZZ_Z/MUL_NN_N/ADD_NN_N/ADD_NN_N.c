@@ -63,8 +63,8 @@ void turnNumber(int* number, int length)
  Функция сравнивает два натуральных числа
  
  Параметры:
- 1) numbOne - Первое число
- 2) numbTwo - Второе число
+ 1) one - Первое число
+ 2) two - Второе число
  
  Функция возвращает результат типа - NUMBN
  
@@ -76,11 +76,11 @@ NUMBN addNumbers(NUMBN one, NUMBN two)
             base = 10,
             balance = 0;
         NUMBN answer;
-        if(numbOne.A && numbTwo.A)
+        if(one.A && two.A)
             {
                 turnNumber(one.A,one.n);
                 turnNumber(two.A,two.n);
-                int comp = compNumbers(numbOne, numbTwo);
+                int comp = compNumbers(one, two);
                 error = comp == -1;
                 if(!error)
                     {
@@ -97,13 +97,12 @@ NUMBN addNumbers(NUMBN one, NUMBN two)
                                 ++answer.n;
                             }
                         turnNumber(answer.A,answer.n);
-                        
+                        turnNumber(one.A,one.n);
+                        turnNumber(two.A,two.n);
                     }
-                turnNumber(one.A,one.n);
-                turnNumber(two.A,two.n);
-            }
-        else
-            error = 1;
+                }
+            else
+                error = 1;
         
         if(error)
             printf("\nОшибка с числом, его не существует!\n");
