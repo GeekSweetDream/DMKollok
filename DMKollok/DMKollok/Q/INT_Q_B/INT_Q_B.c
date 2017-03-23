@@ -9,13 +9,13 @@ INT_Q_B
 Параметры:
 1) q - число
 Функция возвращает результат типа - int
-*
+*/
 
 int INT_Q_B(NUMBQ q)
     {
         int answer = 0 ;
         if (q.b.A && q.a.A)
-            answer = q.b.A == 1
+            answer = *(q.b.A) == 1 && q.b.n == 1;
         else
             {
                 printf("\nОшибка, число не существует!\n");
