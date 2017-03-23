@@ -17,6 +17,6 @@
 void turnNumber(int* number, int length);                                                                                               // Функция для переворота числа
 void swapNumb(NUMBN* numberOne, NUMBN* numberTwo);                                                                                      // Функция для обмена указателей
 void helpAddNumber(int* numberOne, int* numberTwo, int** answer, int base, int* balance, int addSecNumb, int begin, int end );          // Вспомогательная функция для сложения
-NUMBN addNumbers(NUMBN numbOne, NUMBN numbTwo);                                                                                         // Функция для сложения двух чисел
+NUMBN addNumbers(NUMBN one, NUMBN two);                                                                                         // Функция для сложения двух чисел
 
 #endif
