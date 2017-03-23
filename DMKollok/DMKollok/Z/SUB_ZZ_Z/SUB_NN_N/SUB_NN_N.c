@@ -16,8 +16,8 @@
  Функция вычитание из одного натурального другое
  
  Параметры:
- 1) numbF - Первое число
- 2) numbS - Второе число
+ 1) fNumb - Первое число
+ 2) sNumb - Второе число
  
  Функция возращает тип - NUMBN
  
@@ -25,11 +25,9 @@
 
 
 
-NUMBN differenceNumb(NUMBN numbF, NUMBN numbS)
+NUMBN differenceNumb(NUMBN fNumb, NUMBN sNumb)
     {
         int error = 0;
-        NUMBN fNumb = numbF,
-        sNumb = numbS;
         NUMBN answer;
         if(fNumb.A && sNumb.A)
             {
@@ -57,19 +55,13 @@ NUMBN differenceNumb(NUMBN numbF, NUMBN numbS)
                         if(sNumb.n!=fNumb.n)
                             {
                                 for (int i = sNumb.n; i < fNumb.n; ++i)
-                                    {
-                                        if(*(fNumb.A+i) < 0)
-                                        {
-                                            *(fNumb.A+i) += 10;
-                                            *(fNumb.A+i+1) -= 1;
-                                        }
-                                        *(answer.A+i) += *(fNumb.A+i);
-                                    }
+                                    *(answer.A+i) += *(fNumb.A+i);
                             }
-                        int fl = 0,
-                            i;
                         
-                        for (i = fNumb.n-1; i >= 0 && !fl; --i)
+                        int fl = 0,
+                        i;
+                        
+                        for (i = fNumb.n-1; i >= 0 && !fl; --i)                         // Удаление нулей из числа
                             fl = *(answer.A + i) != 0;
                         
                         i+=2;
@@ -78,7 +70,10 @@ NUMBN differenceNumb(NUMBN numbF, NUMBN numbS)
                                 answer.n = i;
                                 answer.A = (int*) realloc(answer.A, i*sizeof(int));
                             }
+
                         turnNumber(answer.A, answer.n);
+                        turnNumber(fNumb.A, fNumb.n);
+                        turnNumber(sNumb.A, sNumb.n);
                     }
             }
         else

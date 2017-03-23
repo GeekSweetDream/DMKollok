@@ -63,21 +63,19 @@ void turnNumber(int* number, int length)
  Функция сравнивает два натуральных числа
  
  Параметры:
- 1) numbOne - Первое число
- 2) numbTwo - Второе число
+ 1) one - Первое число
+ 2) two - Второе число
  
  Функция возвращает результат типа - NUMBN
  
 */
 
-NUMBN addNumbers(NUMBN numbOne, NUMBN numbTwo)
+NUMBN addNumbers(NUMBN one, NUMBN two)
     {
         int error = 0,
             base = 10,
             balance = 0;
         NUMBN answer;
-        NUMBN one = numbOne;
-        NUMBN two = numbTwo;
         if(numbOne.A && numbTwo.A)
             {
                 turnNumber(one.A,one.n);
@@ -99,6 +97,8 @@ NUMBN addNumbers(NUMBN numbOne, NUMBN numbTwo)
                                 ++answer.n;
                             }
                         turnNumber(answer.A,answer.n);
+                        turnNumber(one.A,one.n);
+                        turnNumber(two.A,two.n);
                     }
                 }
             else

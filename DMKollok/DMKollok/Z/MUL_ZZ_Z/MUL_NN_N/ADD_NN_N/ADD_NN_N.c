@@ -70,14 +70,12 @@ void turnNumber(int* number, int length)
  
 */
 
-NUMBN addNumbers(NUMBN numbOne, NUMBN numbTwo)
+NUMBN addNumbers(NUMBN one, NUMBN two)
     {
         int error = 0,
             base = 10,
             balance = 0;
         NUMBN answer;
-        NUMBN one = numbOne;
-        NUMBN two = numbTwo;
         if(numbOne.A && numbTwo.A)
             {
                 turnNumber(one.A,one.n);
@@ -99,10 +97,13 @@ NUMBN addNumbers(NUMBN numbOne, NUMBN numbTwo)
                                 ++answer.n;
                             }
                         turnNumber(answer.A,answer.n);
+                        
                     }
-                }
-            else
-                error = 1;
+                turnNumber(one.A,one.n);
+                turnNumber(two.A,two.n);
+            }
+        else
+            error = 1;
         
         if(error)
             printf("\nОшибка с числом, его не существует!\n");
