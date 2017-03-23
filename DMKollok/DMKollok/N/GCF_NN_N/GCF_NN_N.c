@@ -5,35 +5,24 @@
 #include "MOD_NN_N/DIV_NN_N/MUL_NN_N/ADD_NN_N/COM_NN_D/COM_NN_D.h"
 #include "MOD_NN_N/DIV_NN_N/MUL_NN_N/bfunc/bfunc.h"
 #include "numbN.h"
+#include "GCF_NN_N.h"
 
-NUMBN nodNumbN(NUMBN fNumb, NUMBN sNumb);
-
-int main(int argc, const char * argv[]) {
-
-    NUMBN a,b,c;
-    
-    a.n = 3;
-    b.n = 2;
-    
-    a.A = (int*) malloc(a.n * sizeof(int));
-    b.A = (int*) malloc(b.n * sizeof(int));
-    
-    for (int i = 0 ; i<a.n; ++i) {
-        scanf("%d",a.A+i);
-    }
-    
-    for (int i = 0 ; i<b.n; ++i) {
-        scanf("%d",b.A+i);
-    }
-    
-    c = nodNumbN(a, b);
-    
-    for (int i = 0 ; i<c.n; ++i) {
-        printf("%d",*(c.A+i));
-    }
-    return 0;
-}
-
+/*
+ 
+ Написал: Пискунов Виталий
+ Группа: 6308
+ 
+ nodNumbN
+ 
+ Функция для нахождения нод двух чисел
+ 
+ Параметры:
+ 1) fNumb - Первое число
+ 2) sNumb - Второе число
+ 
+ Функция возращает тип - NUMBN
+ 
+ */
 
 NUMBN nodNumbN(NUMBN fNumb, NUMBN sNumb)
     {
