@@ -10,7 +10,7 @@ getNumbZ
 Функция возвращает - NUMBZ
 
 */
-
+#include <stdlib.h>
 #include <stdio.h>
 #include "numbZ.h"
 #include "numbN.h"
@@ -22,6 +22,7 @@ NUMBZ getNumbZ(NUMBN numb)
         if (numb.A)
             {
                 outNumb.n = numb.n;
+                outNumb.b = 0;
                 outNumb.A = (int*)malloc(outNumb.n * sizeof(int));
                 for (int i = 0; i < outNumb.n; i++)
                     outNumb.A[i] = numb.A[i];
