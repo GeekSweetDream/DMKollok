@@ -35,7 +35,7 @@ NUMBN nodNumbN(NUMBN fNumb, NUMBN sNumb)
                 
                 if(comp == 1)
                     swapNumb(&a, &b);
-                
+
                 int zero = 0;
                 do
                     {
