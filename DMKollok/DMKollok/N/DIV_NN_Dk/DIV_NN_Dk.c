@@ -32,20 +32,19 @@ NUMBN getFirstNumbDivident(NUMBN fNumb,NUMBN sNumb)
         NUMBN answer;
         if(fNumb.A && sNumb.A)
             {
-                NUMBN a = fNumb;
+                NUMBN a;
                 int comp, len = 0;
-                
-                a.A = (int*) realloc(a.A, sNumb.n*sizeof(int));
                 a.n = sNumb.n;
-                
+                a.A = (int*) malloc(a.n*sizeof(int));
+                for(int i = 0; i<a.n;++i)
+                    *(a.A+i) = *(fNumb.A+i);
                 comp = compNumbers(a,sNumb);
                 error = comp == -1;
-                
                 if(comp == 1)
                     {
-                        a = fNumb;
                         a.A = (int*) realloc(a.A, (sNumb.n+1)*sizeof(int));
-                        a.n = sNumb.n+1;
+                        ++a.n;
+                        *(a.A+sNumb.n) = *(sNumb.A+sNumb.n);
                     }
                 len = a.n;
                 do
