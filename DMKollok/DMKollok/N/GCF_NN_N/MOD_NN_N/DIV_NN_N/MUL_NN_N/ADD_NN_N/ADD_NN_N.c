@@ -6,13 +6,14 @@
 #include "bfunc/bfunc.h"
 
 /*
+
  addNumbers
  
  Функция сравнивает два натуральных числа
  
  Параметры:
- 1) one - Первое число
- 2) two - Второе число
+ 1) numbOne - Первое число
+ 2) numbTwo - Второе число
  
  Функция возвращает результат типа - NUMBN
  
@@ -47,6 +48,7 @@ NUMBN addNumbers(NUMBN one, NUMBN two)
                         turnNumber(answer.A,answer.n);
                         turnNumber(one.A,one.n);
                         turnNumber(two.A,two.n);
+
                     }
                 }
             else

@@ -40,29 +40,22 @@ NUMBN differenceNumb(NUMBN fNumb, NUMBN sNumb)
                         
                         answer.A = (int*) malloc (fNumb.n*sizeof(int));
                         answer.n = fNumb.n;
-                        
                         turnNumber(fNumb.A, fNumb.n);
                         turnNumber(sNumb.A, sNumb.n);
                         
-                        int min = 0;
                         for(int i = 0; i < sNumb.n; ++i)
                             {
-                                *(answer.A+i) = *(fNumb.A+i) - *(sNumb.A+i) - min;
-                                min = 0;
+                                *(answer.A+i) = *(fNumb.A+i) - *(sNumb.A+i);
                                 if(*(answer.A+i) < 0)
                                     {
                                         *(answer.A+i) += 10;
-                                        min = 1;
+                                        *(fNumb.A+i+1) -= 1;
                                     }
-                                
                             }
                         if(sNumb.n!=fNumb.n)
                             {
                                 for (int i = sNumb.n; i < fNumb.n; ++i)
-                                    {
-                                        *(answer.A+i) += *(fNumb.A+i) - min;
-                                        min = 0;
-                                    }
+                                    *(answer.A+i) += *(fNumb.A+i);
                             }
                         
                         int fl = 0,
