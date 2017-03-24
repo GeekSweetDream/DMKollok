@@ -1,4 +1,4 @@
-#ifdef _MUL_ZM_Z_H_
+#ifndef _MUL_ZM_Z_H_
 #define _MUL_ZM_Z_H_
 #include "numbZ.h"
 
