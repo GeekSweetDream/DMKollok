@@ -825,9 +825,33 @@ CMakeFiles/LongNumbWorker.dir/DMKollok/Q/INT_Q_B/INT_Q_B.c.o.provides: CMakeFile
 CMakeFiles/LongNumbWorker.dir/DMKollok/Q/INT_Q_B/INT_Q_B.c.o.provides.build: CMakeFiles/LongNumbWorker.dir/DMKollok/Q/INT_Q_B/INT_Q_B.c.o
 
 
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: CMakeFiles/LongNumbWorker.dir/flags.make
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/P/ADD_PP_P/ADD_PP_P.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o   -c /Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/DMKollok/P/ADD_PP_P/ADD_PP_P.c
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/DMKollok/P/ADD_PP_P/ADD_PP_P.c > CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.i
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/DMKollok/P/ADD_PP_P/ADD_PP_P.c -o CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.s
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o.requires:
+
+.PHONY : CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o.requires
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o.provides: CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o.requires
+	$(MAKE) -f CMakeFiles/LongNumbWorker.dir/build.make CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o.provides.build
+.PHONY : CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o.provides
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o.provides.build: CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o
+
+
 CMakeFiles/LongNumbWorker.dir/main.c.o: CMakeFiles/LongNumbWorker.dir/flags.make
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/LongNumbWorker.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/LongNumbWorker.dir/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LongNumbWorker.dir/main.c.o   -c /Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/main.c
 
 CMakeFiles/LongNumbWorker.dir/main.c.i: cmake_force
@@ -883,6 +907,7 @@ LongNumbWorker_OBJECTS = \
 "CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c.o" \
 "CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.c.o" \
 "CMakeFiles/LongNumbWorker.dir/DMKollok/Q/INT_Q_B/INT_Q_B.c.o" \
+"CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o" \
 "CMakeFiles/LongNumbWorker.dir/main.c.o"
 
 # External object files for target LongNumbWorker
@@ -920,10 +945,11 @@ LongNumbWorker: CMakeFiles/LongNumbWorker.dir/DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.c.o
 LongNumbWorker: CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c.o
 LongNumbWorker: CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.c.o
 LongNumbWorker: CMakeFiles/LongNumbWorker.dir/DMKollok/Q/INT_Q_B/INT_Q_B.c.o
+LongNumbWorker: CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o
 LongNumbWorker: CMakeFiles/LongNumbWorker.dir/main.c.o
 LongNumbWorker: CMakeFiles/LongNumbWorker.dir/build.make
 LongNumbWorker: CMakeFiles/LongNumbWorker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C executable LongNumbWorker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C executable LongNumbWorker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LongNumbWorker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -963,6 +989,7 @@ CMakeFiles/LongNumbWorker.dir/requires: CMakeFiles/LongNumbWorker.dir/DMKollok/Q
 CMakeFiles/LongNumbWorker.dir/requires: CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c.o.requires
 CMakeFiles/LongNumbWorker.dir/requires: CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.c.o.requires
 CMakeFiles/LongNumbWorker.dir/requires: CMakeFiles/LongNumbWorker.dir/DMKollok/Q/INT_Q_B/INT_Q_B.c.o.requires
+CMakeFiles/LongNumbWorker.dir/requires: CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o.requires
 CMakeFiles/LongNumbWorker.dir/requires: CMakeFiles/LongNumbWorker.dir/main.c.o.requires
 
 .PHONY : CMakeFiles/LongNumbWorker.dir/requires

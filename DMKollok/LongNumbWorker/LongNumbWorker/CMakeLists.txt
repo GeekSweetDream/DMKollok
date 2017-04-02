@@ -36,6 +36,7 @@ set(SOURCE_FILES
         DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c
         DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.c
         DMKollok/Q/INT_Q_B/INT_Q_B.c
+        DMKollok/P/ADD_PP_P/ADD_PP_P.c
         main.c)
 
 add_executable(LongNumbWorker ${SOURCE_FILES})

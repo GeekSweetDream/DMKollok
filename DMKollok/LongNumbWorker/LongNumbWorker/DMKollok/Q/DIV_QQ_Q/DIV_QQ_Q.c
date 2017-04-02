@@ -3,9 +3,9 @@
 #include <stdlib.h>
 #include "numbQ.h"
 #include "numbZ.h"
-#include "MUL_QQ_Q/MUL_QQ_Q.h"
-#include "TRANS_Z_N/TRANS_Z_N.h"
-#include "TRANS_N_Z/TRANS_N_Z.h"
+#include "../MUL_QQ_Q/MUL_QQ_Q.h"
+#include "../../Z/TRANS_Z_N/TRANS_Z_N.h"
+#include "../../Z/TRANS_N_Z/TRANS_N_Z.h"
 #include "DIV_QQ_Q.h"
 /*
  

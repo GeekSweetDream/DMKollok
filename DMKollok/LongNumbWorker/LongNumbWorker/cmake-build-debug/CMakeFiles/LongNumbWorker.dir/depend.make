@@ -20,13 +20,13 @@ CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_Dk/DIV_NN_Dk.c.o: ../DMKollok/N/
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_Dk/DIV_NN_Dk.c.o: ../DMKollok/N/bfunc/bfunc.h
 
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_N/DIV_NN_N.c.o: ../DMKollok/N/ADD_NN_N/ADD_NN_N.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_N/DIV_NN_N.c.o: ../DMKollok/N/COM_NN_D/COM_NN_D.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_N/DIV_NN_N.c.o: ../DMKollok/N/DIV_NN_Dk/DIV_NN_Dk.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_N/DIV_NN_N.c.o: ../DMKollok/N/DIV_NN_N/DIV_NN_N.c
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_N/DIV_NN_N.c.o: ../DMKollok/N/DIV_NN_N/DIV_NN_N.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_N/DIV_NN_N.c.o: ../DMKollok/N/DIV_NN_N/numbN.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_N/DIV_NN_N.c.o: ../DMKollok/N/MUL_NN_N/MUL_NN_N.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_N/DIV_NN_N.c.o: ../DMKollok/N/SUB_NN_N/SUB_NN_N.h
-CMakeFiles/LongNumbWorker.dir/DMKollok/N/DIV_NN_N/DIV_NN_N.c.o: ../DMKollok/N/bfunc/bfunc.h
 
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/GCF_NN_N/GCF_NN_N.c.o: ../DMKollok/N/COM_NN_D/COM_NN_D.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/GCF_NN_N/GCF_NN_N.c.o: ../DMKollok/N/GCF_NN_N/GCF_NN_N.c
@@ -86,6 +86,14 @@ CMakeFiles/LongNumbWorker.dir/DMKollok/N/bfunc/bfunc.c.o: ../DMKollok/N/bfunc/bf
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/bfunc/bfunc.c.o: ../DMKollok/N/bfunc/bfunc.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/N/bfunc/bfunc.c.o: ../DMKollok/N/bfunc/numbN.h
 
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/P/ADD_PP_P/ADD_PP_P.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/P/ADD_PP_P/ADD_PP_P.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/P/ADD_PP_P/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/P/ADD_PP_P/numbP.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/P/ADD_PP_P/numbQ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/P/ADD_PP_P/numbZ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.h
+
 CMakeFiles/LongNumbWorker.dir/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o: ../DMKollok/N/DIV_NN_N/DIV_NN_N.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o: ../DMKollok/N/LCM_NN_N/LCM_NN_N.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o: ../DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c
@@ -96,6 +104,63 @@ CMakeFiles/LongNumbWorker.dir/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o: ../DMKollok/Q/AD
 CMakeFiles/LongNumbWorker.dir/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o: ../DMKollok/Z/ADD_ZZ_Z/ADD_ZZ_Z.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o: ../DMKollok/Z/MUL_ZZ_Z/MUL_ZZ_Z.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o: ../DMKollok/Z/TRANS_N_Z/TRANS_N_Z.h
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.c.o: ../DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.c.o: ../DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.c.o: ../DMKollok/Q/DIV_QQ_Q/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.c.o: ../DMKollok/Q/DIV_QQ_Q/numbQ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.c.o: ../DMKollok/Q/DIV_QQ_Q/numbZ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.c.o: ../DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.c.o: ../DMKollok/Z/TRANS_N_Z/TRANS_N_Z.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.c.o: ../DMKollok/Z/TRANS_Z_N/TRANS_Z_N.h
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/INT_Q_B/INT_Q_B.c.o: ../DMKollok/Q/INT_Q_B/INT_Q_B.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/INT_Q_B/INT_Q_B.c.o: ../DMKollok/Q/INT_Q_B/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/INT_Q_B/INT_Q_B.c.o: ../DMKollok/Q/INT_Q_B/numbQ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/INT_Q_B/INT_Q_B.c.o: ../DMKollok/Q/INT_Q_B/numbZ.h
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.c.o: ../DMKollok/N/MUL_NN_N/MUL_NN_N.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.c.o: ../DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.c.o: ../DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.c.o: ../DMKollok/Q/MUL_QQ_Q/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.c.o: ../DMKollok/Q/MUL_QQ_Q/numbQ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.c.o: ../DMKollok/Q/MUL_QQ_Q/numbZ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.c.o: ../DMKollok/Z/MUL_ZZ_Z/MUL_ZZ_Z.h
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/N/COM_NN_D/COM_NN_D.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/N/DIV_NN_N/DIV_NN_N.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/N/GCF_NN_N/GCF_NN_N.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/Q/RED_Q_Q/RED_Q_Q.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/Q/RED_Q_Q/RED_Q_Q.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/Q/RED_Q_Q/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/Q/RED_Q_Q/numbQ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/Q/RED_Q_Q/numbZ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/Z/ABS_Z_N/ABS_Z_N.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/Z/DIV_ZZ_Z/DIV_ZZ_Z.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/RED_Q_Q/RED_Q_Q.c.o: ../DMKollok/Z/TRANS_N_Z/TRANS_N_Z.h
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c.o: ../DMKollok/N/DIV_NN_N/DIV_NN_N.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c.o: ../DMKollok/N/LCM_NN_N/LCM_NN_N.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c.o: ../DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c.o: ../DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c.o: ../DMKollok/Q/SUB_QQ_Q/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c.o: ../DMKollok/Q/SUB_QQ_Q/numbQ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c.o: ../DMKollok/Q/SUB_QQ_Q/numbZ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c.o: ../DMKollok/Z/MUL_ZZ_Z/MUL_ZZ_Z.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c.o: ../DMKollok/Z/SUB_ZZ_Z/SUB_ZZ_Z.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.c.o: ../DMKollok/Z/TRANS_N_Z/TRANS_N_Z.h
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c.o: ../DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c.o: ../DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c.o: ../DMKollok/Q/TRANS_Q_Z/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c.o: ../DMKollok/Q/TRANS_Q_Z/numbQ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c.o: ../DMKollok/Q/TRANS_Q_Z/numbZ.h
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.c.o: ../DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.c.o: ../DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.c.o: ../DMKollok/Q/TRANS_Z_Q/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.c.o: ../DMKollok/Q/TRANS_Z_Q/numbQ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Q/TRANS_Z_Q/TRANS_Z_Q.c.o: ../DMKollok/Q/TRANS_Z_Q/numbZ.h
 
 CMakeFiles/LongNumbWorker.dir/DMKollok/Z/ABS_Z_N/ABS_Z_N.c.o: ../DMKollok/Z/ABS_Z_N/ABS_Z_N.c
 CMakeFiles/LongNumbWorker.dir/DMKollok/Z/ABS_Z_N/ABS_Z_N.c.o: ../DMKollok/Z/ABS_Z_N/ABS_Z_N.h
@@ -162,6 +227,11 @@ CMakeFiles/LongNumbWorker.dir/DMKollok/Z/TRANS_N_Z/TRANS_N_Z.c.o: ../DMKollok/Z/
 CMakeFiles/LongNumbWorker.dir/DMKollok/Z/TRANS_N_Z/TRANS_N_Z.c.o: ../DMKollok/Z/TRANS_N_Z/numbN.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/Z/TRANS_N_Z/TRANS_N_Z.c.o: ../DMKollok/Z/TRANS_N_Z/numbZ.h
 
+CMakeFiles/LongNumbWorker.dir/DMKollok/Z/TRANS_Z_N/TRANS_Z_N.c.o: ../DMKollok/Z/TRANS_Z_N/TRANS_Z_N.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/Z/TRANS_Z_N/TRANS_Z_N.c.o: ../DMKollok/Z/TRANS_Z_N/TRANS_Z_N.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Z/TRANS_Z_N/TRANS_Z_N.c.o: ../DMKollok/Z/TRANS_Z_N/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/Z/TRANS_Z_N/TRANS_Z_N.c.o: ../DMKollok/Z/TRANS_Z_N/numbZ.h
+
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/N/ADD_NN_N/ADD_NN_N.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/N/COM_NN_D/COM_NN_D.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/N/DIV_NN_N/DIV_NN_N.h
@@ -171,8 +241,15 @@ CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/N/MOD_NN_N/MOD_NN_N.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/N/MUL_NN_N/MUL_NN_N.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/N/SUB_NN_N/SUB_NN_N.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/N/numbN.h
+CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/P/ADD_PP_P/ADD_PP_P.h
+CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/P/ADD_PP_P/numbP.h
+CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/P/numbP.h
+CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/P/numbQ.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.h
-CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/Q/ADD_QQ_Q/numbQ.h
+CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.h
+CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.h
+CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/Q/RED_Q_Q/RED_Q_Q.h
+CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/Q/numbN.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/Q/numbQ.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/Q/numbZ.h

@@ -1,11 +1,11 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include "../COM_NN_D/COM_NN_D.h"
 #include "../DIV_NN_Dk/DIV_NN_Dk.h"
 #include "../SUB_NN_N/SUB_NN_N.h"
 #include "../ADD_NN_N/ADD_NN_N.h"
 #include "../MUL_NN_N/MUL_NN_N.h"
-#include "../bfunc/bfunc.h"
 #include "numbN.h"
 #include "DIV_NN_N.h"
 

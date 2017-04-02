@@ -158,6 +158,12 @@
 		<Unit filename="/Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/DMKollok/N/bfunc/bfunc.h">
 			<Option target="LongNumbWorker"/>
 		</Unit>
+		<Unit filename="/Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/DMKollok/P/ADD_PP_P/ADD_PP_P.c">
+			<Option target="LongNumbWorker"/>
+		</Unit>
+		<Unit filename="/Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/DMKollok/P/ADD_PP_P/ADD_PP_P.h">
+			<Option target="LongNumbWorker"/>
+		</Unit>
 		<Unit filename="/Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c">
 			<Option target="LongNumbWorker"/>
 		</Unit>

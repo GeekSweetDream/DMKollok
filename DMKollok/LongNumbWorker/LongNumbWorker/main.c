@@ -4,6 +4,7 @@
 #include "DMKollok/N/numbN.h"
 #include "DMKollok/Z/numbZ.h"
 #include "DMKollok/Q/numbQ.h"
+#include "DMKollok/P/numbP.h"
 #include "DMKollok/N/ADD_NN_N/ADD_NN_N.h"
 #include "DMKollok/N/SUB_NN_N/SUB_NN_N.h"
 #include "DMKollok/N/MUL_NN_N/MUL_NN_N.h"
@@ -22,6 +23,7 @@
 #include "DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.h"
 #include "DMKollok/Q/DIV_QQ_Q/DIV_QQ_Q.h"
 #include "DMKollok/Q/RED_Q_Q/RED_Q_Q.h"
+#include "DMKollok/P/ADD_PP_P/ADD_PP_P.h"
 
 
 int showMenu(void);
@@ -43,6 +45,11 @@ NUMBQ inputQ();
 void actionQ();
 void printNumbQ(NUMBQ numb);
 
+NUMBP inputP();
+void actionP();
+void printNumbP(NUMBP numb);
+NUMBQ* freeP(NUMBP* numbp);
+
 int main(void)
     {
         int exit = 0;
@@ -60,7 +67,7 @@ int main(void)
                         actionQ();
                         break;
                     case 4:
-                        
+                        actionP();
                         break;
                     case 5:
                         
@@ -316,7 +323,7 @@ int* inputString(int* len)
         char ch;
         int* numb = NULL;
         *len = 0;
-        printf("\nВведите число: ");
+        printf("Введите число: ");
         do
             {
                 err = 0;
@@ -656,50 +663,122 @@ void printNumbQ(NUMBQ numb)
     }
 
 void actionP()
-{
-    int exit = 0,
-    ch;
-    do
     {
-        ch = showSubMenu(1);
-        switch (ch) {
-            case 1:
-                //Ввод числа
-                break;
-                
-            case 2:
-                //Сложение
-                break;
-            case 3:
-                //diff
-                break;
-            case 4:
-                //MULL
-                break;
-            case 5:
-                //div
-                break;
-            case 6:
-                //mod
-                break;
-            case 7:
-                //NOD
-                break;
-            case 8:
-                //NOK
-                break;
-            case 9:
-                //COMP
-                break;
-            default:
-                printf("\nОшибка, выбран не существующий пункт меню!\n");
-                break;
-        }
-        
+        int complFstage = 0,
+                exit = 0,
+                ch;
+        NUMBP a,b,c;
+        a.C = NULL;
+        b.C = NULL;
+        c.C = NULL;
+        do
+            {
+                ch = showSubMenu(4);
+                switch (ch) {
+                    case 1:
+                        a.C = freeP(&a);
+                        b.C = freeP(&b);
+                        a = inputP();
+                        b = inputP();
+                        printf("\nВаше первое число: ");
+                        printNumbP(a);
+                        printf("\nВаше второе число: ");
+                        printNumbP(b);
+                        complFstage = 1;
+                        //Ввод числа
+                        break;
+
+                    case 2:
+                        if(complFstage)
+                            {
+                                c.C = freeP(&c);
+                                c = addNumbP(a, b);
+                                printf("\nСумма равна: ");
+                                printNumbP(c);
+                                printf("\n");
+                            }
+                        else
+                            printf("\nОшибка, сначала нужно ввести числа!\n");
+
+                        //Сложение
+                        break;
+                    case 3:
+                        //diff
+                        break;
+                    case 4:
+                        //MULL
+                        break;
+                    case 5:
+                        //div
+                        break;
+                    case 6:
+                        //mod
+                        break;
+                    case 9:
+                        //COMP
+                        break;
+                    default:
+                        printf("\nОшибка, выбран не существующий пункт меню!\n");
+                        break;
+                }
+
+            }
+        while (!exit);
+
     }
-    while (!exit);
-    
-}
 
+NUMBP inputP()
+    {
+        int err = 0,
+                s;
+        NUMBP numb;
+        do
+            {
+                printf("\nВведите степень многочлена: ");
+                scanf("%d",&s);
+                err = s >= 0;
+                if(!err)
+                    printf("\nБыл введен неверный символ!");
+            }
+        while(!err);
+        scanf( "%*[^\n]" );         // Эти две команды нужны для того, чтобы очистить поток ввода
+        scanf( "%*c" );
+        numb.m = s;
 
+        for(int i = 0; i < s + 1; ++i)
+            {
+                printf("\nВведите коэффициент:\n");
+                if(i)
+                    numb.C = (NUMBQ*) realloc(numb.C, (i+1)*sizeof(NUMBQ));
+                else
+                    numb.C = (NUMBQ*) malloc(sizeof(NUMBQ));
+                *(numb.C+i) = inputQ();
+            }
+        return numb;
+    }
 
+void printNumbP(NUMBP numb)
+    {
+        for(int i = 0; i < numb.m+1; ++i )
+            {
+                printf("(");
+                printNumbQ(*(numb.C + i));
+                printf(")");
+                if(i != numb.m)
+                    {
+                        printf("*x^%d",numb.m-i);
+                        printf(" + ");
+                    }
+            }
+    }
+
+NUMBQ* freeP(NUMBP* numbp)
+    {
+        if(numbp->C)
+            {
+                freeNumb(&numbp->C->a.A);
+                freeNumb(&numbp->C->b.A);
+                free(numbp->C);
+            }
+        return NULL;
+    }
