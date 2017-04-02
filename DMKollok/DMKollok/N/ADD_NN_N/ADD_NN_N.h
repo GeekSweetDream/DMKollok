@@ -2,12 +2,6 @@
 #define _ADD_NN_N_H_
 
 
-/*
- 
- Автор: Пискунов Виталий
- Группа: 6308
-
-*/
 
 #include <stdio.h>
 #include <stdlib.h>

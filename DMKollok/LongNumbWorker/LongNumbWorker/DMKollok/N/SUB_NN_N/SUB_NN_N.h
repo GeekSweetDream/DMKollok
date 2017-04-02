@@ -2,9 +2,6 @@
 #define _SUB_NN_N_H
 #include "numbN.h"
 /*
-
- Написал: Пискунов Виталий
- Группа: 6308
  
  differenceNUmb
  

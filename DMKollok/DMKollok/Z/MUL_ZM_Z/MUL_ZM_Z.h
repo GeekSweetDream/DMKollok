@@ -3,8 +3,6 @@
 #include "numbZ.h"
 
 /*
- Автор: Пискунов Виталий
- Группа: 6308
  
  multiMinusOne
  

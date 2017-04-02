@@ -2,10 +2,7 @@
 #define _LCM_NN_N_H_
 #include "numbN.h"
 /*
- 
- Написал: Пискунов Виталий
- Группа: 6308
- 
+  
  differenceNUmb
  
  Функция считает нок для чисел
