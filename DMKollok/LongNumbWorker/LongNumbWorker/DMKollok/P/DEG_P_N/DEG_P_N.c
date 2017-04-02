@@ -16,6 +16,6 @@
 
 int getDegree(NUMBP A)
 {
-	return A.m - 1;
+	return A.m;
 }
 

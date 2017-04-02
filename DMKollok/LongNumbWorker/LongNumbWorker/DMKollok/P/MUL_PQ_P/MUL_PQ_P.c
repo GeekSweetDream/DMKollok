@@ -14,7 +14,7 @@
 #include <stdlib.h>
 #include "numbP.h"
 #include "MUL_PQ_P.h"
-#include "MUL_QQ_Q/MUL_QQ_Q.h"
+#include "../../Q/MUL_QQ_Q/MUL_QQ_Q.h"
 
 NUMBP multiplicationNumbPQ(NUMBP A, NUMBQ Q)
 {
@@ -23,8 +23,8 @@ NUMBP multiplicationNumbPQ(NUMBP A, NUMBQ Q)
 	if (A.C)
 	{
 		B.m = A.m;
-		B.C = (NUMBQ*)malloc(B.m * sizeof(NUMBQ));
-		for (int i = 0;i < B.m;++i)
+		B.C = (NUMBQ*)malloc((B.m+1) * sizeof(NUMBQ));
+		for (int i = 0;i < (B.m+1);++i)
 			B.C[i] = multiplicationNumbQ(A.C[i], Q);
 	}
 	else

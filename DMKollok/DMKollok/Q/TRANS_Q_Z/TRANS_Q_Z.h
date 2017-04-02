@@ -13,6 +13,6 @@ getNumbZ
 Функция возвращает результат типа - NUMBZ
 */
 
-NUMBZ getNumbZ(NUMBQ a);
+NUMBZ getZNumbQ(NUMBQ a);
 
 #endif

@@ -29,37 +29,26 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-838">
-              <caret line="318" column="4" lean-forward="false" selection-start-line="318" selection-start-column="4" selection-end-line="318" selection-end-column="4" />
+            <state relative-caret-position="246">
+              <caret line="724" column="0" lean-forward="true" selection-start-line="724" selection-start-column="0" selection-end-line="724" selection-end-column="0" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
-                <element signature="e#2421#2985#0" expanded="false" />
-                <element signature="e#3194#4838#0" expanded="false" />
-                <element signature="e#4840#10877#0" expanded="false" />
-                <element signature="e#10988#12010#0" expanded="false" />
-                <element signature="e#12013#12155#0" expanded="false" />
-                <element signature="e#12157#12258#0" expanded="false" />
-                <element signature="e#12261#16631#0" expanded="false" />
-                <element signature="e#16633#17217#0" expanded="false" />
-                <element signature="e#17219#17374#0" expanded="false" />
-                <element signature="e#17377#22372#0" expanded="false" />
-                <element signature="e#22374#22587#0" expanded="false" />
-                <element signature="e#22589#22715#0" expanded="false" />
-                <element signature="e#24684#25539#0" expanded="false" />
-                <element signature="e#25541#25917#0" expanded="false" />
-                <element signature="e#25919#26143#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ADD_PP_P.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DMKollok/P/ADD_PP_P/ADD_PP_P.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding>
-                <element signature="e#176#195#0" expanded="true" />
+                <element signature="e#2549#3113#0" expanded="false" />
+                <element signature="e#3322#4966#0" expanded="false" />
+                <element signature="e#5174#11286#0" expanded="false" />
+                <element signature="e#11855#12929#0" expanded="false" />
+                <element signature="e#13137#13327#0" expanded="false" />
+                <element signature="e#13535#13690#0" expanded="false" />
+                <element signature="e#13898#18336#0" expanded="false" />
+                <element signature="e#18544#19186#0" expanded="false" />
+                <element signature="e#19394#19592#0" expanded="false" />
+                <element signature="e#19800#24871#0" expanded="false" />
+                <element signature="e#25079#25343#0" expanded="false" />
+                <element signature="e#25551#25726#0" expanded="false" />
+                <element signature="e#25934#29522#0" expanded="false" />
+                <element signature="e#29730#30639#0" expanded="false" />
+                <element signature="e#30847#31279#0" expanded="false" />
+                <element signature="e#31487#31773#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -68,8 +57,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="379">
+              <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -130,10 +119,14 @@
         <option value="$PROJECT_DIR$/DMKollok/Q/TRANS_Q_Z/numbN.h" />
         <option value="$PROJECT_DIR$/DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.c" />
         <option value="$PROJECT_DIR$/DMKollok/Q/TRANS_Q_Z/TRANS_Q_Z.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/DMKollok/P/ADD_PP_P/numbN.h" />
         <option value="$PROJECT_DIR$/DMKollok/N/DIV_NN_N/DIV_NN_N.c" />
         <option value="$PROJECT_DIR$/DMKollok/P/ADD_PP_P/ADD_PP_P.c" />
+        <option value="$PROJECT_DIR$/DMKollok/P/SUB_PP_P/SUB_PP_P.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/DMKollok/P/MUL_PQ_P/MUL_PQ_P.h" />
+        <option value="$PROJECT_DIR$/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c" />
+        <option value="$PROJECT_DIR$/DMKollok/P/DEG_P_N/DEG_P_N.c" />
         <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
@@ -187,46 +180,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DMKollok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LongNumbWorker" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LongNumbWorker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DMKollok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="P" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LongNumbWorker" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LongNumbWorker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DMKollok" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="P" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ADD_PP_P" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,12 +413,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491139036128</updated>
-      <workItem from="1491139039561" duration="20718000" />
+      <workItem from="1491139039561" duration="22141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20718000" />
+    <option name="totallyTimeSpent" value="22141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,46 +479,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DMKollok/N/DIV_NN_N/ADD_NN_N.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DMKollok/Z/ADD_ZZ_Z/COM_NN_D.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DMKollok/N/LCM_NN_N/DIV_NN_N.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DMKollok/Z/SUB_ZZ_Z/SUB_NN_N.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DMKollok/Z/SUB_ZZ_Z/ADD_NN_N.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DMKollok/Z/MUL_ZM_Z/MUL_ZM_Z.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -868,14 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DMKollok/P/ADD_PP_P/numbN.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -944,35 +849,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DMKollok/P/ADD_PP_P/ADD_PP_P.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="364">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DMKollok/P/SUB_PP_P/SUB_PP_P.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#176#195#0" expanded="true" />
+            <element signature="e#182#201#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="e#259#277#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DMKollok/P/MUL_PQ_P/MUL_PQ_P.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DMKollok/P/DEG_P_N/DEG_P_N.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#137#155#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DMKollok/P/LED_P_Q/LED_P_Q.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-838">
-          <caret line="318" column="4" lean-forward="false" selection-start-line="318" selection-start-column="4" selection-end-line="318" selection-end-column="4" />
+        <state relative-caret-position="246">
+          <caret line="724" column="0" lean-forward="true" selection-start-line="724" selection-start-column="0" selection-end-line="724" selection-end-column="0" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
-            <element signature="e#2421#2985#0" expanded="false" />
-            <element signature="e#3194#4838#0" expanded="false" />
-            <element signature="e#4840#10877#0" expanded="false" />
-            <element signature="e#10988#12010#0" expanded="false" />
-            <element signature="e#12013#12155#0" expanded="false" />
-            <element signature="e#12157#12258#0" expanded="false" />
-            <element signature="e#12261#16631#0" expanded="false" />
-            <element signature="e#16633#17217#0" expanded="false" />
-            <element signature="e#17219#17374#0" expanded="false" />
-            <element signature="e#17377#22372#0" expanded="false" />
-            <element signature="e#22374#22587#0" expanded="false" />
-            <element signature="e#22589#22715#0" expanded="false" />
-            <element signature="e#24684#25539#0" expanded="false" />
-            <element signature="e#25541#25917#0" expanded="false" />
-            <element signature="e#25919#26143#0" expanded="false" />
+            <element signature="e#2549#3113#0" expanded="false" />
+            <element signature="e#3322#4966#0" expanded="false" />
+            <element signature="e#5174#11286#0" expanded="false" />
+            <element signature="e#11855#12929#0" expanded="false" />
+            <element signature="e#13137#13327#0" expanded="false" />
+            <element signature="e#13535#13690#0" expanded="false" />
+            <element signature="e#13898#18336#0" expanded="false" />
+            <element signature="e#18544#19186#0" expanded="false" />
+            <element signature="e#19394#19592#0" expanded="false" />
+            <element signature="e#19800#24871#0" expanded="false" />
+            <element signature="e#25079#25343#0" expanded="false" />
+            <element signature="e#25551#25726#0" expanded="false" />
+            <element signature="e#25934#29522#0" expanded="false" />
+            <element signature="e#29730#30639#0" expanded="false" />
+            <element signature="e#30847#31279#0" expanded="false" />
+            <element signature="e#31487#31773#0" expanded="false" />
           </folding>
         </state>
       </provider>

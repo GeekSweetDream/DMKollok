@@ -528,6 +528,60 @@ DMKollok/P/ADD_PP_P/ADD_PP_P.c.s:
 	$(MAKE) -f CMakeFiles/LongNumbWorker.dir/build.make CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.s
 .PHONY : DMKollok/P/ADD_PP_P/ADD_PP_P.c.s
 
+DMKollok/P/MUL_PQ_P/MUL_PQ_P.o: DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o
+
+.PHONY : DMKollok/P/MUL_PQ_P/MUL_PQ_P.o
+
+# target to build an object file
+DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o:
+	$(MAKE) -f CMakeFiles/LongNumbWorker.dir/build.make CMakeFiles/LongNumbWorker.dir/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o
+.PHONY : DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o
+
+DMKollok/P/MUL_PQ_P/MUL_PQ_P.i: DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.i
+
+.PHONY : DMKollok/P/MUL_PQ_P/MUL_PQ_P.i
+
+# target to preprocess a source file
+DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.i:
+	$(MAKE) -f CMakeFiles/LongNumbWorker.dir/build.make CMakeFiles/LongNumbWorker.dir/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.i
+.PHONY : DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.i
+
+DMKollok/P/MUL_PQ_P/MUL_PQ_P.s: DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.s
+
+.PHONY : DMKollok/P/MUL_PQ_P/MUL_PQ_P.s
+
+# target to generate assembly for a file
+DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.s:
+	$(MAKE) -f CMakeFiles/LongNumbWorker.dir/build.make CMakeFiles/LongNumbWorker.dir/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.s
+.PHONY : DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.s
+
+DMKollok/P/SUB_PP_P/SUB_PP_P.o: DMKollok/P/SUB_PP_P/SUB_PP_P.c.o
+
+.PHONY : DMKollok/P/SUB_PP_P/SUB_PP_P.o
+
+# target to build an object file
+DMKollok/P/SUB_PP_P/SUB_PP_P.c.o:
+	$(MAKE) -f CMakeFiles/LongNumbWorker.dir/build.make CMakeFiles/LongNumbWorker.dir/DMKollok/P/SUB_PP_P/SUB_PP_P.c.o
+.PHONY : DMKollok/P/SUB_PP_P/SUB_PP_P.c.o
+
+DMKollok/P/SUB_PP_P/SUB_PP_P.i: DMKollok/P/SUB_PP_P/SUB_PP_P.c.i
+
+.PHONY : DMKollok/P/SUB_PP_P/SUB_PP_P.i
+
+# target to preprocess a source file
+DMKollok/P/SUB_PP_P/SUB_PP_P.c.i:
+	$(MAKE) -f CMakeFiles/LongNumbWorker.dir/build.make CMakeFiles/LongNumbWorker.dir/DMKollok/P/SUB_PP_P/SUB_PP_P.c.i
+.PHONY : DMKollok/P/SUB_PP_P/SUB_PP_P.c.i
+
+DMKollok/P/SUB_PP_P/SUB_PP_P.s: DMKollok/P/SUB_PP_P/SUB_PP_P.c.s
+
+.PHONY : DMKollok/P/SUB_PP_P/SUB_PP_P.s
+
+# target to generate assembly for a file
+DMKollok/P/SUB_PP_P/SUB_PP_P.c.s:
+	$(MAKE) -f CMakeFiles/LongNumbWorker.dir/build.make CMakeFiles/LongNumbWorker.dir/DMKollok/P/SUB_PP_P/SUB_PP_P.c.s
+.PHONY : DMKollok/P/SUB_PP_P/SUB_PP_P.c.s
+
 DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.o: DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o
 
 .PHONY : DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.o
@@ -1095,6 +1149,12 @@ help:
 	@echo "... DMKollok/P/ADD_PP_P/ADD_PP_P.o"
 	@echo "... DMKollok/P/ADD_PP_P/ADD_PP_P.i"
 	@echo "... DMKollok/P/ADD_PP_P/ADD_PP_P.s"
+	@echo "... DMKollok/P/MUL_PQ_P/MUL_PQ_P.o"
+	@echo "... DMKollok/P/MUL_PQ_P/MUL_PQ_P.i"
+	@echo "... DMKollok/P/MUL_PQ_P/MUL_PQ_P.s"
+	@echo "... DMKollok/P/SUB_PP_P/SUB_PP_P.o"
+	@echo "... DMKollok/P/SUB_PP_P/SUB_PP_P.i"
+	@echo "... DMKollok/P/SUB_PP_P/SUB_PP_P.s"
 	@echo "... DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.o"
 	@echo "... DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.i"
 	@echo "... DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.s"

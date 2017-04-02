@@ -94,6 +94,22 @@ CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/P/AD
 CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/P/ADD_PP_P/numbZ.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/P/ADD_PP_P/ADD_PP_P.c.o: ../DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.h
 
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o: ../DMKollok/P/MUL_PQ_P/MUL_PQ_P.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o: ../DMKollok/P/MUL_PQ_P/MUL_PQ_P.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o: ../DMKollok/P/MUL_PQ_P/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o: ../DMKollok/P/MUL_PQ_P/numbP.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o: ../DMKollok/P/MUL_PQ_P/numbQ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o: ../DMKollok/P/MUL_PQ_P/numbZ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/MUL_PQ_P/MUL_PQ_P.c.o: ../DMKollok/Q/MUL_QQ_Q/MUL_QQ_Q.h
+
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/SUB_PP_P/SUB_PP_P.c.o: ../DMKollok/P/SUB_PP_P/SUB_PP_P.c
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/SUB_PP_P/SUB_PP_P.c.o: ../DMKollok/P/SUB_PP_P/SUB_PP_P.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/SUB_PP_P/SUB_PP_P.c.o: ../DMKollok/P/SUB_PP_P/numbN.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/SUB_PP_P/SUB_PP_P.c.o: ../DMKollok/P/SUB_PP_P/numbP.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/SUB_PP_P/SUB_PP_P.c.o: ../DMKollok/P/SUB_PP_P/numbQ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/SUB_PP_P/SUB_PP_P.c.o: ../DMKollok/P/SUB_PP_P/numbZ.h
+CMakeFiles/LongNumbWorker.dir/DMKollok/P/SUB_PP_P/SUB_PP_P.c.o: ../DMKollok/Q/SUB_QQ_Q/SUB_QQ_Q.h
+
 CMakeFiles/LongNumbWorker.dir/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o: ../DMKollok/N/DIV_NN_N/DIV_NN_N.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o: ../DMKollok/N/LCM_NN_N/LCM_NN_N.h
 CMakeFiles/LongNumbWorker.dir/DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c.o: ../DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.c
@@ -243,6 +259,8 @@ CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/N/SUB_NN_N/SUB_NN_N.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/N/numbN.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/P/ADD_PP_P/ADD_PP_P.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/P/ADD_PP_P/numbP.h
+CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/P/MUL_PQ_P/MUL_PQ_P.h
+CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/P/SUB_PP_P/SUB_PP_P.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/P/numbP.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/P/numbQ.h
 CMakeFiles/LongNumbWorker.dir/main.c.o: ../DMKollok/Q/ADD_QQ_Q/ADD_QQ_Q.h

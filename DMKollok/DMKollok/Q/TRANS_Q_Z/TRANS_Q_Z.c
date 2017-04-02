@@ -14,7 +14,7 @@
  Функция возвращает результат типа - NUMBZ
  */
 
-NUMBZ getNumbZ(NUMBQ a)
+NUMBZ getZNumbQ(NUMBQ a)
 {
     NUMBZ ans;
     if(a.a.A && a.b.A)
