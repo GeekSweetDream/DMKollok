@@ -27,29 +27,28 @@
 #include "DMKollok/P/SUB_PP_P/SUB_PP_P.h"
 #include "DMKollok/P/MUL_PQ_P/MUL_PQ_P.h"
 
-int showMenu(void);
-int showSubMenu(int ch);
+int showMenu(void);                         // Функция выводит меню для пользователя и принимает, вводимое им число
+int showSubMenu(int ch);                    // Функция выводит подменю для пользователя и принимает, вводимое им число
+int* inputString(int* len);                 // Функция для перевода из символов в цифры
 
-int* inputString(int* len);
-
-NUMBN inputN();
-void printNumb(int* numb, int len);
-int* freeNumb(int** numb);
-void actionN();
+NUMBN inputN();                             // Функция для ввода натуральных чисел
+void printNumb(int* numb, int len);         // Функция для вывода натуральных чисел
+int* freeNumb(int** numb);                  // Функция для освобождения натуральных чисел
+void actionN();                             // Функция для подменю для выбора действий с натуральными числами
 
 
-NUMBZ inputZ();
-void actionZ();
-void printNumbZ(NUMBZ numb);
+NUMBZ inputZ();                             // Функция для ввода целых чисел
+void actionZ();                             // Функция для подменю для выбора действий с целыми числами
+void printNumbZ(NUMBZ numb);                // Функция для вывода целых чисел
 
-NUMBQ inputQ();
-void actionQ();
-void printNumbQ(NUMBQ numb);
+NUMBQ inputQ();                             // Функция для ввода рациональных чисел
+void actionQ();                             // Функция для подменю для выбора действий с рациональными числами
+void printNumbQ(NUMBQ numb);                // Функция для вывода рациональных чисел
 
-NUMBP inputP();
-void actionP();
-void printNumbP(NUMBP numb);
-NUMBQ* freeP(NUMBP* numbp);
+NUMBP inputP();                             //Функция для ввода коэффициентов многочлена
+void actionP();                             // Функция для подменю для выбора действий с многочленами числами
+void printNumbP(NUMBP numb);                // Функция для ввода коэффициентов многочлена
+NUMBQ* freeP(NUMBP* numbp);                 // Функция для освобождения памяти из под многочлена
 
 int main(void)
     {
