@@ -4,6 +4,7 @@
 *.obj
 *.elf
 *.xcodeproj
+*.txt
 
 # Precompiled Headers
 *.gch
@@ -14,6 +15,7 @@
 *.a
 *.la
 *.lo
+*.idea
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -32,3 +34,6 @@
 # Debug files
 *.dSYM/
 *.su
+
+#folders
+*-debug/
