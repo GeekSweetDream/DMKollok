@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "numbN.h"
-#include "SUB_NN_N/SUB_NN_N.h"
-#include "MUL_ND_N/MUL_ND_N.h"
-#include "COM_NN_D/COM_NN_D.h"
-#include "SUB_NN_N/bfunc/bfunc.h"
+#include "../SUB_NN_N/SUB_NN_N.h"
+#include "../MUL_ND_N/MUL_ND_N.h"
+#include "../COM_NN_D/COM_NN_D.h"
+#include "../bfunc/bfunc.h"
 
 /*
  

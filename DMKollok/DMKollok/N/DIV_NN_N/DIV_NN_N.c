@@ -1,10 +1,11 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "DIV_NN_Dk/DIV_NN_Dk.h"
-#include "SUB_NDN_N/SUB_NN_N/SUB_NN_N.h"
-#include "ADD_NN_N/ADD_NN_N.h"
-#include "MUL_NN_N/MUL_NN_N.h"
+#include "../DIV_NN_Dk/DIV_NN_Dk.h"
+#include "../SUB_NN_N/SUB_NN_N.h"
+#include "../ADD_NN_N/ADD_NN_N.h"
+#include "../MUL_NN_N/MUL_NN_N.h"
+#include "../bfunc/bfunc.h"
 #include "numbN.h"
 #include "DIV_NN_N.h"
 
@@ -31,6 +32,8 @@ NUMBN DivNumbN(NUMBN a, NUMBN b)
         if(a.A && b.A)
             {
                 NUMBN aD = a;
+                for (int i = 0; i < a.n ; ++i)
+                    *(aD.A+i) = *(a.A+i);
                 ans.n = 1;
                 ans.A = (int*) calloc(ans.n, sizeof(int));
                 int comp;
@@ -49,7 +52,6 @@ NUMBN DivNumbN(NUMBN a, NUMBN b)
         
         if(error)
             printf("\nОшибка, число не существует!\n");
-        
         
         return ans;
     }

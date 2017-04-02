@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "numbN.h"
-#include "bfunc/bfunc.h"
+#include "../bfunc/bfunc.h"
 #include "MUL_ND_N.h"
 
 /*

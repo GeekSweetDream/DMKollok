@@ -1,5 +1,5 @@
-#ifndef _ADD_ZZ_Z_H_
-#define _ADD_ZZ_Z_H_
+#ifndef _SUB_ZZ_Z_H_
+#define _SUB_ZZ_Z_H_
 #include "numbZ.h"
 #include "numbN.h"
 

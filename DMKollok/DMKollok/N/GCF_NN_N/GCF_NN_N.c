@@ -1,9 +1,9 @@
 
 #include <stdio.h>
-#include "MOD_NN_N/MOD_NN_N.h"
-#include "NZER_N_B/NZER_N_B.h"
-#include "MOD_NN_N/DIV_NN_N/MUL_NN_N/ADD_NN_N/COM_NN_D/COM_NN_D.h"
-#include "MOD_NN_N/DIV_NN_N/MUL_NN_N/bfunc/bfunc.h"
+#include "../MOD_NN_N/MOD_NN_N.h"
+#include "../NZER_N_B/NZER_N_B.h"
+#include "../COM_NN_D/COM_NN_D.h"
+#include "../bfunc/bfunc.h"
 #include "numbN.h"
 #include "GCF_NN_N.h"
 

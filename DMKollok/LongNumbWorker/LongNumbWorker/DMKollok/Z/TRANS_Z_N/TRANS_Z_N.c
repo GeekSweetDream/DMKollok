@@ -11,6 +11,7 @@ getNatural
 
 */
 
+#include <stdlib.h>
 #include <stdio.h>
 #include "numbZ.h"
 #include "numbN.h"

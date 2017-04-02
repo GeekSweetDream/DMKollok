@@ -15,11 +15,11 @@
 #include <stdio.h>
 #include "numbQ.h"
 #include "SUB_QQ_Q.h"
-#include "TRANS_N_Z/TRANS_N_Z.h"
-#include "MUL_ZZ_Z/MUL_ZZ_Z.h"
-#include "LCM_NN_N/GCF_NN_N/MOD_NN_N/DIV_NN_N/DIV_NN_N.h"
-#include "SUB_ZZ_Z/SUB_ZZ_Z.h"
-#include "LCM_NN_N/LCM_NN_N.h"
+#include "../../Z/TRANS_N_Z/TRANS_N_Z.h"
+#include "../../Z/MUL_ZZ_Z/MUL_ZZ_Z.h"
+#include "../../N/DIV_NN_N/DIV_NN_N.h"
+#include "../../Z/SUB_ZZ_Z/SUB_ZZ_Z.h"
+#include "../../N/LCM_NN_N/LCM_NN_N.h"
 
 NUMBQ subtractNumbQ(NUMBQ A, NUMBQ B)
 {

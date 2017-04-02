@@ -1,10 +1,10 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "POZ_Z_D/POZ_Z_D.h"
-#include "ABS_Z_N/ABS_Z_N.h"
-#include "MUL_ZM_Z/MUL_ZM_Z.h"
-#include "MUL_NN_N/MUL_NN_N.h"
+#include "../POZ_Z_D/POZ_Z_D.h"
+#include "../ABS_Z_N/ABS_Z_N.h"
+#include "../MUL_ZM_Z/MUL_ZM_Z.h"
+#include "../../N/MUL_NN_N/MUL_NN_N.h"
 #include "numbZ.h"
 #include "numbN.h"
 #include "MUL_ZZ_Z.h"

@@ -1,0 +1,4 @@
+"/Users/ThePupsick/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.121/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/ThePupsick/GitHub/DMKollok/DMKollok/LongNumbWorker/LongNumbWorker/cmake-build-debug

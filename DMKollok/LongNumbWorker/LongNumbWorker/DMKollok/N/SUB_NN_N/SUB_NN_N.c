@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "numbN.h"
-#include "bfunc/bfunc.h"
-#include "COM_NN_D/COM_NN_D.h"
+#include "../bfunc/bfunc.h"
+#include "../COM_NN_D/COM_NN_D.h"
 #include "SUB_NN_N.h"
 
 /*

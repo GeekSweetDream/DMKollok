@@ -1,5 +1,5 @@
 #ifndef _NUMBN_H_
-#define _NUMBH_H_
+#define _NUMBN_H_
 
 typedef struct numbN
 	{

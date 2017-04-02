@@ -2,11 +2,10 @@
 #include <stdio.h>
 #include "numbZ.h"
 #include "numbN.h"
-#include "ABS_Z_N/ABS_Z_N.h"
-#include "DIV_NN_N/DIV_NN_N.h"
-#include "POZ_Z_D/POZ_Z_D.h"
-#include "TRANS_N_Z/TRANS_N_Z.h"
-#include "DIV_ZZ_Z.h"
+#include "../ABS_Z_N/ABS_Z_N.h"
+#include "../../N/DIV_NN_N/DIV_NN_N.h"
+#include "../POZ_Z_D/POZ_Z_D.h"
+#include "../TRANS_N_Z/TRANS_N_Z.h"
 
 /*
  

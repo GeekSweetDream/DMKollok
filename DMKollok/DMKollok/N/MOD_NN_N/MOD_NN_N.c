@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "numbN.h"
-#include "DIV_NN_N/DIV_NN_N.h"
-#include "DIV_NN_N/SUB_NDN_N/SUB_NN_N/SUB_NN_N.h"
-#include "DIV_NN_N/MUL_NN_N/MUL_NN_N.h"
+#include "../DIV_NN_N/DIV_NN_N.h"
+#include "../SUB_NN_N/SUB_NN_N.h"
+#include "../MUL_NN_N/MUL_NN_N.h"
 #include "MOD_NN_N.h"
 
 /*

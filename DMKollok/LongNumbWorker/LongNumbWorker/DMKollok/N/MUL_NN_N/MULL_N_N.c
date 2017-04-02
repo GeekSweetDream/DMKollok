@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "MUL_ND_N/MUL_ND_N.h"
-#include "MUL_Nk_N/MUL_Nk_N.h"
-#include "ADD_NN_N/ADD_NN_N.h"
+#include "../MUL_ND_N/MUL_ND_N.h"
+#include "../MUL_Nk_N/MUL_Nk_N.h"
+#include "../ADD_NN_N/ADD_NN_N.h"
 #include "numbN.h"
 
 /*

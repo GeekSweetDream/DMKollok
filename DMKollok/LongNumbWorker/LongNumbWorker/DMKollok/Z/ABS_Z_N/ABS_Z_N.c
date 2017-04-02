@@ -4,8 +4,6 @@
 #include "numbN.h"
 #include "ABS_Z_N.h"
 
-NUMBN absNumbZ(NUMBZ numb);
-
 /*
  
  Написал: Пискунов Виталий

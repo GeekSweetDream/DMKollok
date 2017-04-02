@@ -1,6 +1,9 @@
 #ifndef _COM_NN_D_H_
 #define _COM_NN_D_H_
+
+#include "numbN.h"
 /*
+
 
  Автор: Пискунов Виталий
  Группа: 6308

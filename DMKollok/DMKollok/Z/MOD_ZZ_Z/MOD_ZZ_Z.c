@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "numbZ.h"
-#include "MUL_ZZ_Z/MUL_ZZ_Z.h"
-#include "SUB_ZZ_Z/SUB_ZZ_Z.h"
-#include "DIV_ZZ_Z/DIV_ZZ_Z.h"
+#include "../MUL_ZZ_Z/MUL_ZZ_Z.h"
+#include "../SUB_ZZ_Z/SUB_ZZ_Z.h"
+#include "../DIV_ZZ_Z/DIV_ZZ_Z.h"
 #include "MOD_ZZ_Z.h"
 
 /*

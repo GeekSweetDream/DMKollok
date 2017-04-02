@@ -1,0 +1,2 @@
+Options: 
+CMake: 3.7.1@/Users/ThePupsick/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.3780.121/CLion.app/Contents/bin/cmake/bin/cmake

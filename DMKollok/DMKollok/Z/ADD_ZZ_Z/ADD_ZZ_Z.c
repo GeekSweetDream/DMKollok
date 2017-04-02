@@ -1,12 +1,12 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "COM_NN_D/COM_NN_D.h"
-#include "ABS_Z_N/ABS_Z_N.h"
-#include "ADD_NN_N/ADD_NN_N.h"
-#include "SUB_NN_N/SUB_NN_N.h"
-#include "MUL_ZM_Z/MUL_ZM_Z.h"
-#include "POZ_Z_D/POZ_Z_D.h"
+#include "../../N/COM_NN_D/COM_NN_D.h"
+#include "../ABS_Z_N/ABS_Z_N.h"
+#include "../../N/ADD_NN_N/ADD_NN_N.h"
+#include "../../N/SUB_NN_N/SUB_NN_N.h"
+#include "../MUL_ZM_Z/MUL_ZM_Z.h"
+#include "../POZ_Z_D/POZ_Z_D.h"
 #include "numbZ.h"
 #include "numbN.h"
 #include "ADD_ZZ_Z.h"

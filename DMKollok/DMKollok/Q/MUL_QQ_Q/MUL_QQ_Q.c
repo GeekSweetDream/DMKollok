@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "numbQ.h"
-#include "MUL_ZZ_Z/MUL_ZZ_Z.h"
-#include "MUL_ZZ_Z/MUL_NN_N/MUL_NN_N.h"
+#include "../../Z/MUL_ZZ_Z/MUL_ZZ_Z.h"
+#include "../../N/MUL_NN_N/MUL_NN_N.h"
 #include "MUL_QQ_Q.h"
 
 /*
