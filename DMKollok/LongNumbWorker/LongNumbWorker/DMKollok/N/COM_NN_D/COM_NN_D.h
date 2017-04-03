@@ -2,6 +2,7 @@
 #define _COM_NN_D_H_
 
 #include "numbN.h"
+
 /*
  
  compNumbers

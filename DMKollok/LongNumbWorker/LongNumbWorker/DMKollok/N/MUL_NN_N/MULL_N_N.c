@@ -28,8 +28,8 @@ NUMBN multiplicationTwoNumb(NUMBN numbF, NUMBN numbS)
         NUMBN a;
         if(numbF.A && numbS.A)
             {
-                answer.A = (int*) calloc (answer.n, sizeof(int));
                 answer.n = numbF.n>numbS.n?numbS.n:numbF.n;
+                answer.A = (int*) calloc (answer.n, sizeof(int));
                 for (int i = numbF.n-1; i >= 0; --i)
                     {
                         a = multiplicateN(numbS, *(numbF.A+i));

@@ -290,9 +290,9 @@ void actionN()
 
                     case 10:
                         printf("\nВаше первое число: ");
-                        printNumb(a.A,c.n);
+                        printNumb(a.A,a.n);
                         printf("\nВаше второе число: ");
-                        printNumb(b.A,c.n);
+                        printNumb(b.A,b.n);
                         break;
 
                     case 0:
@@ -571,8 +571,6 @@ void printNumbZ(NUMBZ numb)
     {
         if(numb.b)
             printf("-");
-        else
-            printf("+");
         printNumb(numb.A,numb.n);
     }
 

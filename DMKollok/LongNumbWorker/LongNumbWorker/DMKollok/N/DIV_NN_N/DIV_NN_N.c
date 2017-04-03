@@ -39,7 +39,7 @@ NUMBN DivNumbN(NUMBN a, NUMBN b)
                 int comp;
                 do
                     {
-                        NUMBN k =getFirstNumbDivident(aD, b);
+                        NUMBN k = getFirstNumbDivident(aD, b);
                         ans = addNumbers(k, ans);
                         aD = differenceNumb(aD, multiplicationTwoNumb(b, k));
                         comp = compNumbers(aD,b);
