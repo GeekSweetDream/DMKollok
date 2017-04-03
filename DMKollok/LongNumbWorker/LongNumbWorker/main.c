@@ -78,6 +78,7 @@ int main(void)
                         printf("\nОшибка, выбран не существующий пункт меню!");
                         break;
                 }
+                system("clear");
             }
         while(!exit);
         return 0;
@@ -307,6 +308,7 @@ void actionN()
                 }
                 printf("\nНажмите enter для продолжния!\n");
                 getchar();
+                system("clear");
             }
         while (!exit);
     
@@ -523,6 +525,7 @@ void actionZ()
                 }
                 printf("\nНажмите enter для продолжния!\n");
                 getchar();
+                system("clear");
             }
         while (!exit);
 
@@ -706,6 +709,7 @@ void actionQ()
 
                 printf("\nНажмите enter для продолжния!\n");
                 getchar();
+                system("clear");
             }
         while (!exit);
 
@@ -844,6 +848,7 @@ void actionP()
                 }
                 printf("\nНажмите enter для продолжния!\n");
                 getchar();
+                system("clear");
             }
         while (!exit);
 
