@@ -1,5 +1,5 @@
-#ifndef _COM_NN_D_H_
-#define _COM_NN_D_H_
+#ifndef _MUL_NK_N_H_
+#define _MUL_NK_N_H_
 #include "numbN.h"
 /*
  
@@ -15,7 +15,7 @@
  1) str - Структура
  2) k - Степень 10
  
- Функция возвращает результат типа - NUMBN*
+ Функция возвращает результат типа - void
  
 */
 
