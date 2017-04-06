@@ -14,5 +14,5 @@
 
 NUMBQ getLeadingCoef(NUMBP A)
 {
-	return A.C[A.m - 1];
+	return A.C;
 }
